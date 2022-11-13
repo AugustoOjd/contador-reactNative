@@ -4,6 +4,7 @@ import BoxObjectModelScreen from './src/screens/BoxObjectModelScreen'
 import ContadorScreen from './src/screens/ContadorScreen'
 import DimensionesScreen from './src/screens/DimensionesScreen'
 import HolaMundoScreen from './src/screens/HolaMundoScreen'
+import PositionScreen from './src/screens/PositionScreen'
 
 const App = () => {
   return (
@@ -14,7 +15,8 @@ const App = () => {
       <SafeAreaView
         style={{ flex: 1}}
       >
-        <DimensionesScreen/>
+        {/* <DimensionesScreen/> */}
+        <PositionScreen/>
       </SafeAreaView>
     </>
 
